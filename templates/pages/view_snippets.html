@@ -64,6 +64,7 @@
 </header>
 
 <!-- Begin page content -->
+{% block content %}
 <main role="main" class="mt-3 flex-shrink-0">
     <div class="container">
         <div class="row">
@@ -112,7 +113,9 @@
             </div>
         </div>
     </div>
+
 </main>
+{% endblock %}
 
 <footer class="footer mt-auto py-3">
     <span class="text-muted">&copy; Роман ЕР, {% now "Y" %}. <br>
